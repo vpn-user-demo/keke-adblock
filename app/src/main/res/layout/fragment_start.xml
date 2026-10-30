@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="org.jak_linux.dns66.main.StartFragment">
+
+    <include layout="@layout/extra_bar_start"/>
+
+    <org.jak_linux.dns66.SquareImageView
+        android:id="@+id/state_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:longClickable="true"
+        app:srcCompat="@drawable/ic_menu_start"/>
+
+    <TextView
+        android:id="@+id/stat_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:text="可可"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/pill"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="启动"
+        android:textColor="?android:attr/textColorPrimaryInverse"/>
+
+    <Button
+        android:id="@+id/rule_mode_button"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/pill"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="拦截模式：DNS"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+</LinearLayout>

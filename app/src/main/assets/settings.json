@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "minorVersion": 3,
+  "autoStart": true,
+  "showNotification": true,
+  "nightMode": false,
+  "watchDog": false,
+  "ipV6Support": true,
+  "dnsServers": {
+    "enabled": true,
+    "items": [
+      {
+        "title": "阿里DNS",
+        "location": "223.5.5.5",
+        "state": 1
+      },
+      {
+        "title": "114DNS",
+        "location": "114.114.114.114",
+        "state": 1
+      }
+    ]
+  },
+  "hosts": {
+    "enabled": true,
+    "automaticRefresh": false,
+    "items": [
+      {
+        "title": "可可内置拦截列表",
+        "location": "asset://blocklist.txt",
+        "state": 0
+      }
+    ]
+  },
+  "allowlist": {
+    "showSystemApps": false,
+    "defaultMode": 2,
+    "items": [
+      "com.android.vending"
+    ],
+    "itemsBlacklist": [
+
+    ]
+  }
+}

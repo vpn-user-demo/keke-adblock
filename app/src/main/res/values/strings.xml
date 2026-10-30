@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name" translatable="false">可可</string>
+    <string name="app_shortdesc">拦截广告和恶意域名</string>
+    <string name="custom_dns">自定义DNS服务器</string>
+    <string name="enable_hosts">过滤域名</string>
+    <string name="start_tab">启动</string>
+    <string name="hosts_tab">拦截列表</string>
+    <string name="dns_tab">DNS</string>
+    <string name="action_export">导出设置</string>
+    <string name="action_import">导入设置</string>
+    <string name="action_save">完成</string>
+    <string name="load_defaults">加载默认设置</string>
+    <string name="action_about">关于</string>
+    <string name="info_app_license">本程序是自由软件：您可以自由使用和修改。</string>
+    <string name="info_app_copyright" translatable="false">© 2016-2019 Julian Andres Klode</string>
+    <string name="switch_onboot">开机自动启动</string>
+    <string name="activity_edit">编辑条目</string>
+    <string name="title">标题</string>
+    <string name="location">地址（URL或主机）</string>
+    <string name="action">操作</string>
+    <string name="cannot_restore_previous_config">无法恢复之前的配置: %s</string>
+    <string name="cannot_read_config">无法读取配置: %s</string>
+    <string name="cannot_load_default_config">无法读取默认设置: %s - 这不应该发生</string>
+    <string name="cannot_write_config">无法写入配置: %s</string>
+    <string name="action_refresh">刷新域名列表</string>
+    <string name="notification_starting">正在启动</string>
+    <string name="notification_running">运行中</string>
+    <string name="notification_stopping">正在停止</string>
+    <string name="notification_waiting_for_net">等待网络</string>
+    <string name="notification_reconnecting">重新连接</string>
+    <string name="notification_reconnecting_error">重连错误</string>
+    <string name="notification_stopped">已停止</string>
+    <string name="notification_title">可可</string>
+    <string-array name="item_states">
+        <item>拦截</item>
+        <item>放行</item>
+        <item>忽略</item>
+    </string-array>
+    <string name="translator_credits"/>
+    <string name="app_version_info">版本: %s</string>
+    <string name="missing_hosts_files_message">你配置的（非忽略的）域名列表文件缺失。\n\n是否仍然继续？</string>
+    <string name="missing_hosts_files_title">域名列表缺失</string>
+    <string name="button_no">否</string>
+    <string name="button_yes">是</string>
+    <string name="website" translatable="false">https://github.com/julian-klode/dns66</string>
+    <string name="allowlist_tab">应用</string>
+    <string name="show_notification">显示通知</string>
+    <string name="could_not_configure_vpn_service">无法配置VPN服务 - 请检查是否使用了常驻VPN服务并关闭它</string>
+    <string name="dns_description">启用你偏好的DNS服务器</string>
+    <string name="host_description">红色规则拦截，绿色规则放行</string>
+    <string name="disable_notification_title">关闭通知</string>
+    <string name="disable_notification_message">关闭通知可能导致内存不足时APP被系统停止。\n\n确定要关闭通知吗？</string>
+    <string name="disable_notification_ack">关闭通知</string>
+    <string name="disable_notification_nak">取消</string>
+    <string name="allowlist_description">让标记的应用绕过拦截</string>
+    <string name="switch_show_system_apps">显示系统应用</string>
+    <string name="location_dns">DNS服务器IP地址（IPv4或IPv6）</string>
+    <string name="state_dns_enabled">已启用</string>
+    <string name="host_update_error_item">错误 %1$d: %2$s</string>
+    <string name="update_incomplete">更新不完整</string>
+    <string name="update_incomplete_description">部分域名列表下载失败。如果之前下载过，将继续使用旧版本。</string>
+    <string name="updating_hostfiles">正在更新域名列表</string>
+    <string name="action_use_file">使用文件</string>
+    <string name="stat_blocked_format">可可端口 已拦截 %1$d 次</string>
+    <string name="stat_blocked_title">已拦截域名列表</string>
+    <string name="persistable_uri_permission_failed">无法使用所选文件：没有持久使用权限</string>
+    <string name="updating_n_host_files">正在更新 %1$d 个域名列表</string>
+    <string name="could_not_update_all_hosts">无法更新全部域名列表</string>
+    <string name="permission_denied">权限被拒绝</string>
+    <string name="invalid_url_s">无效的URL: %1$s</string>
+    <string name="file_not_found">文件未找到</string>
+    <string name="unknown_error_s">意外错误: %1$s</string>
+    <string name="requested_timed_out">请求超时</string>
+    <string name="action_delete">删除</string>
+    <string name="night_mode">深色主题</string>
+    <string name="expand_bar_toggle_expand">展开详情面板</string>
+    <string name="expand_bar_toggle_close">关闭详情面板</string>
+    <string name="expand_bar_expanded">已展开</string>
+    <string name="expand_bar_closed">已关闭</string>
+    <string name="action_stop">停止</string>
+    <string name="action_start">启动</string>
+    <string name="automatic_refresh">每日刷新</string>
+    <string name="automatic_refresh_description">在充电、空闲和无限流量网络时每日更新。</string>
+    <string name="watchdog">连接监控</string>
+    <string name="watchdog_description">以递增的时间间隔检查连接，停止工作时重新连接</string>
+    <string name="legend_host_intro">条目按顺序处理。多个条目包含同一主机时，应用最后一条。操作有：</string>
+    <string name="legend_host_ignore">忽略此条目</string>
+    <string name="legend_host_allow">放行此条目中的主机</string>
+    <string name="legend_host_deny">拦截此条目中的主机</string>
+    <string name="do_not_use_dns_server">关闭</string>
+    <string name="use_dns_server">开启</string>
+    <string name="switch_onboot_description">设备关闭前APP正在运行的话，开机时自动启动。</string>
+    <string name="activity_edit_dns_server">编辑DNS服务器</string>
+    <string name="activity_edit_filter">编辑过滤规则</string>
+    <string name="notification_paused_title">可可已暂停</string>
+    <string name="notification_paused_text">点击恢复。</string>
+    <string name="notification_action_pause">暂停</string>
+    <string name="allowlist_on_vpn">无应用</string>
+    <string name="allowlist_not_on_vpn">所有应用</string>
+    <string name="allowlist_intelligent">系统应用（浏览器除外）</string>
+    <string name="ipv6_support_description">如果网络不使用IPv6或无法启动服务，请关闭此项。</string>
+    <string name="ipv6_support">IPv6支持</string>
+    <string name="action_logcat">日志</string>
+    <string name="notifications_running">运行中的服务</string>
+    <string name="notifications_running_desc">与运行中服务交互的通知</string>
+    <string name="notifications_update">状态</string>
+    <string name="notifications_update_desc">关于更新域名列表的通知</string>
+    <string name="notifications_paused">已暂停的服务</string>
+    <string name="notifications_paused_desc">暂停后恢复的通知</string>
+    <string name="notifications_group_service">服务控制</string>
+    <string name="notifications_group_updates">更新</string>
+    <string name="unstable_feature">不稳定功能</string>
+    <string name="unstable_watchdog_message">监控连接可能导致重连或连接卡住</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_continue">继续</string>
+    <string-array name="allowlist_defaults">
+        <item>默认不绕过应用</item>
+        <item>默认绕过所有应用</item>
+        <item>默认绕过系统应用</item>
+    </string-array>
+</resources>
