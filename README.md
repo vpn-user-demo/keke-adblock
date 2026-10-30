@@ -103,6 +103,14 @@ APK 输出在 `app/build/outputs/apk/debug/app-debug.apk`。
 
 ---
 
+## 📸 界面截图
+
+| 启动页 | 拦截列表 | 拦截模式 | 应用管理 |
+|---|---|---|---|
+| ![启动页](docs/screenshots/screenshot-home.jpg) | ![拦截列表](docs/screenshots/screenshot-hosts.jpg) | ![拦截模式](docs/screenshots/screenshot-mode.jpg) | ![应用管理](docs/screenshots/screenshot-apps.jpg) |
+
+---
+
 ## 📥 直接下载 APK
 
 不想编译？直接去 **Releases 页面**下载最新安装包（已内置 7 万+ 域名，装好即用）：
